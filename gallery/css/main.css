@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/roboto-regular.ttf);
+}
+
+body{
+	background-color: grey;
+	font-family: Roboto;
+}
+
+main{
+	background-color: white;
+	margin: auto;
+	padding: 50px;
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0  10px 1px rgba(0,0,0,0.2)
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+}
+
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+}
+
+h1{
+	text-align: center;
+	width: 100%;
+}
+.photo1{
+	background-image: url(../img/s.jpg);
+}
+.photo2{
+	background-image: url(../img/end.jpg);
+}
+.photo3{
+	background-image: url(../img/5890.jpg);
+}
+.photo4{
+	background-image: url(../img/5789.jpg);
+}
+.photo5{
+	background-image: url(../img/5678.jpg);
+}
+.photo6{
+	background-image: url(../img/56.jpg);
+}
+.photo7{
+	background-image: url(../img/34.jpg);
+}
+.photo8{
+	background-image: url(../img/2345.jpg);
+}
